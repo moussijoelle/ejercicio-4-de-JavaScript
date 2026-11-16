@@ -1,26 +1,26 @@
-﻿# Ejercicio 4 — litros de pintura
+# Ejercicio 4 — litros de pintura
 
-Estima los litros de pintura según alto, ancho y número de manos (cobertura 12 m²/litro).
+Calcula aproximadamente cuánta pintura hace falta según alto, ancho y manos (12 m² por litro).
 
 ## Qué hace
 
-- Inputs: alto, ancho y manos
-- Valida números y calcula litros aproximados
+- Tres campos: alto, ancho, manos
+- Valida números
+- Da los litros redondeados a 2 decimales
 
 ## Cómo probarlo
 
-Abre `index.html` o la demo.
+Abre `index.html`.
 
 Demo: https://moussijoelle.github.io/ejercicio-4-de-JavaScript/
 
 ## Cómo lo construí
 
-- HTML + JavaScript (`app.js`)
-- Fórmula: `(alto × ancho × manos) / 12`
+Fórmula en `app.js`: `(alto × ancho × manos) / 12`.
 
 ## Cómo verificarlo
 
-Sin tests. Pruebo valores válidos e inválidos (vacíos o negativos).
+Una pared inventada con números claros y otro intento con campos vacíos o negativos.
 
 ---
 
